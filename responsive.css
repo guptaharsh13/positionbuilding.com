@@ -1,0 +1,203 @@
+@media screen and (max-width: 1155px) {
+
+    body::before {
+        height: 60rem;
+    }
+
+    #loginSignupBox {
+        flex-direction: column;
+        align-items: center;
+
+        height: 60rem;
+    }
+
+    #pageHeading {
+        width: 100%;
+    }
+
+    #mainHeading {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #subHeading {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+
+
+    #cards {
+        height: 80.5rem;
+    }
+
+    #cardsHead {
+        text-align: center;
+    }
+
+    #cardsList {
+        height: 70rem;
+
+        flex-direction: column;
+    }
+
+    .card {
+        width: 85%;
+        height: 20rem;
+    }
+
+    #about {
+        height: fit-content;
+
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #aboutContent {
+        width: 100%;
+        padding: 0px 7%;
+    }
+
+    #abtHead {
+        line-height: normal;
+    }
+
+    #aboutImage {
+        width: 100%;
+        height: 42%;
+
+        max-width: 36rem;
+        max-height: 24rem;
+        margin: 42px auto;
+    }
+
+    #promotion {
+        height: fit-content;
+    }
+
+    #promotionContent {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    #promotionHead {
+        margin-top: 0px;
+    }
+
+    #manImg {
+        width: 100%;
+        margin: 5% 0px;
+    }
+
+    #manImg img {
+        width: 20.5rem;
+        height: 13rem;
+    }
+
+    #promotionBtns {
+        width: 100%;
+        height: 16rem;
+
+        align-items: center;
+    }   
+
+    .textPart a {
+        font-size: 14px;
+    }
+
+    #join {
+        height: 22rem;
+    }
+
+    #joinNum {
+        font-size: 4rem;
+    }
+
+    #emailInp {
+        width: 20rem;
+    }
+
+    #contact {
+        height: fit-content;
+    }
+
+    #contactText {
+        font-size: 15px;
+        padding: 1.25rem 0px;
+    }
+
+    #contactLine {
+        display: none;
+    }
+
+    #info {
+        flex-direction: column;
+        align-items: stretch;
+        background-color: #33404b;
+    }
+
+    .infoColumn {
+        border-bottom: 1px solid lightgray;
+    }
+
+    .infoHead {
+        padding-top: 14px;
+    }
+
+    .infoHead i {
+        display: inline-block;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .infoColumn ul {
+        visibility: hidden;
+        height: 0px;
+
+        position: relative;
+        left: -10rem;
+    }
+
+    .infoColumn.open .infoHead i {
+        transform: rotate3d(1, 0, 0, 180deg);
+    }
+
+    .infoColumn.open ul {
+        visibility: visible;
+        height: initial;
+        left: 0px;
+        padding-bottom: 14px;
+
+        transition: left 0.85s;
+    }
+
+    .infoColumn.open ul li a {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+}
+
+@media screen and (max-width: 765px) {
+
+    .promotionBtn {
+        width: 200px;
+    }
+
+    .bluePart {
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .promotionBtn {
+    width: 155px;
+  }
+
+  .textPart a {
+    font-size: 13px;
+  }
+
+}
